@@ -1,0 +1,11 @@
+header {
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    padding: 1rem 0;
+}
+
+.admin-header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

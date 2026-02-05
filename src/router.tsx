@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import AppLayout from "./components/layouts/AppLayout";
 import AdminLayout from "./components/layouts/AdminLayout";
-import CenterLayout from "./components/layouts/CenterLayout";
+import BlankLayout from "./components/layouts/BlankLayout";
 import MyLayout from "./components/layouts/MyLayout";
 import HomePage from "./components/pages/HomePage";
 import AdminHomePage from "./components/pages/admin/AdminHomePage";
@@ -96,7 +96,7 @@ export const router = createBrowserRouter([
         ]
     },
     {
-        element: <CenterLayout />,
+        element: <BlankLayout />,
         children: [
             {
                 path: "*",

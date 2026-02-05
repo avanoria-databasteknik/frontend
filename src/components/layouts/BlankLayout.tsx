@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom"
 import Footer from "../sections/footer/Footer"
 
-const CenterLayout = () => {
+const BlankLayout = () => {
   return (
-    <div className="center-layout">
+    <div className="blank-layout">
       <main>
           <Outlet />
       </main>
@@ -12,4 +12,4 @@ const CenterLayout = () => {
   )
 }
 
-export default CenterLayout
+export default BlankLayout
